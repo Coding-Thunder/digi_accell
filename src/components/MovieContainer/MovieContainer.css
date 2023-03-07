@@ -1,0 +1,21 @@
+.MovieContainer {
+    padding: 0 10px;
+}
+
+
+.MovieContainerHeading {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+.MovieContainerMovies {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.MovieContainerMovies::-webkit-scrollbar {
+    display: none;
+  }
